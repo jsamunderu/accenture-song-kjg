@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    align-content: center;
+    flex-shrink: 0; 
+    background-color: #70259B;
+    background: #70259B;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.header nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 8px;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71%;
+    margin: 0;
+    padding: 0;
+}
+
+.headerLinks li {
+    display: inline;
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    color: #88dfdf;
+}
+  
+.headerLinks a:hover,
+.headerLinks a:active,
+.headerLinks a.active {
+    color: #e6fcfc;
+}
+
+.letsTalkButton button {
+    border: none;   
+}
+
+.letsTalkButton {
+    border-radius: 50px;
+    background: var(--shades-white, #FFF); 
+    color: var(--primary-main, #70259B);
+    /* body/Bold/14 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */ 
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+}

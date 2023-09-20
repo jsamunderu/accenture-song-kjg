@@ -1,0 +1,70 @@
+.sub-heading {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sub-heading h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 0.7em;
+}
+
+.rectangle {
+    width: 40px;
+    height: 4px;
+    flex-shrink: 0;
+    background: var(--primary-active, #D100C9);
+}
+
+.what-we-do {
+    width: 100%;
+}
+
+.what-we-do-text {
+    display: flex;
+    height: 225px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--shades-700, #242424);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.offerings {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.offered-service {
+    padding: 20px 20px;
+}
+
+.offered-service h2 {
+    color: #000;
+    /* heading/is-4 */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.offered-service p {
+    color: #000;
+/* body/Regular/20 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */ 
+}

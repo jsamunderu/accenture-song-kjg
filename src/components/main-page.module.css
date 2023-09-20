@@ -1,0 +1,28 @@
+.caption {
+    margin-left: 80px;
+    margin-bottom: 86px;
+}
+
+.caption h2 {
+    color: var(--shades-100, #FAFAFA);
+    /* heading/is-1 */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 67.2px */ 
+}
+
+.caption p {
+    color: var(--shades-200, #F5F5F5);
+    /* subtitle/is-5 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */ 
+}
+
+.marketing {
+    padding: 80px 80px;
+}
