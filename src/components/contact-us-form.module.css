@@ -1,0 +1,35 @@
+.form-heading {
+    color: var(--shades-600, #363636);
+    /* heading/is-2 */
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 56px */ 
+}
+
+.form-control {
+    display: flex;
+    width: 331px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px; 
+}
+
+.button-class {
+    color: var(--shades-white, #FFF);
+    display: flex;
+    align-items: flex-start; 
+    border-radius: 20px; 
+    /* body/Regular/16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.contact-us-form {
+    margin: 32px;
+}

@@ -64,7 +64,7 @@ const CaseStudies = ({slides, selected}) => {
             index = (index + 1) % slides.length;
             ++counter;
         }
-        return newList
+        return newList;
     }
     const goBack = () => {
         let start = currentIndex === 0 ? slides.length - 1 : currentIndex - 1;
