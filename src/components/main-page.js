@@ -37,7 +37,6 @@ const defaultCaseStudy = {
 
 export const MainPage = () => {
     const [caseStudies, setCaseStudies] = useState([defaultCaseStudy]);
-    const [currentIndex, setCurrentIndex] = useState(0);
     const [selected, setSelected] = useState(defaultCaseStudy)
     useEffect(() => {
       fetchOfferings()
