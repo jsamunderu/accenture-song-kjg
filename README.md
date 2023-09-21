@@ -1,9 +1,9 @@
 # Accenture Song KJG
-accenture song King James Group website
+Accenture song King James Group website
 
 This program requires ```nodejs``` and the ```npm``` tool 
 
-Change directory into the accenture-song-parent directory, where there is this README file.
+Change directory into the accenture-song-kjg parent directory, where there is this README file.
 
 Install the required packages
 
