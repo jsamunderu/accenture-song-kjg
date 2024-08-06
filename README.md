@@ -1,5 +1,4 @@
-# Accenture Song KJG
-Accenture song King James Group website
+
 
 This program requires ```nodejs``` and the ```npm``` tool 
 
